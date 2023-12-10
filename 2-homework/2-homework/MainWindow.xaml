@@ -1,0 +1,41 @@
+﻿<Window x:Class="_2_homework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2_homework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
+            <Button Content="Почта" Margin="5"/>
+            <Button Content="Картинки" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Google" FontSize="48" HorizontalAlignment="Center" Margin="0, 0, 0, 20"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 0, 0, 20">
+                <TextBox Width="200" Height="30" Text="Поиск в Google" />
+                <Button Content="🎹" Width="30" Height="30" Margin="5"/>
+                <Button Content="🎤" Width="30" Height="30" Margin="5"/>
+                <Button Content="📷" Width="30" Height="30" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Поиск в Google" Width="150" Height="30" Margin="5"/>
+                <Button Content="Мне повезет!" Width="100" Height="30" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 10">
+            <TextBlock Text="Все о Google" Margin="5"/>
+            <TextBlock Text="Реклама" Margin="5"/>
+            <TextBlock Text="Для бизнеса" Margin="5"/>
+            <TextBlock Text="Как работает Google Поиск" Margin="5"/>
+            <TextBlock Text="Конфиденциальность" Margin="5"/>
+            <TextBlock Text="Условия" Margin="5"/>
+            <TextBlock Text="Настройки" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
