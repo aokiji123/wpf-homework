@@ -1,0 +1,24 @@
+﻿<Window x:Class="_5_homework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:eff="clr-namespace:System.Windows.Media.Effects;assembly=PresentationCore"
+        xmlns:local="clr-namespace:_5_homework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Name="imageView" Stretch="Uniform" Width="400" Height="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image.Effect>
+                <eff:BlurEffect Radius="0" x:Name="blurEffect"/>
+            </Image.Effect>
+        </Image>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 20">
+            <Button Name="prevButton" Content="&lt;" Click="Prev_Click" Width="40" Height="40" FontSize="16"/>
+            <Button Content="-" Click="DecreaseSize_Click" Width="40" Height="40" FontSize="16"/>
+            <Slider Minimum="0" Maximum="1" Value="0" ValueChanged="OpacitySlider_ValueChanged" Width="200"/>
+            <Button Content="+" Click="IncreaseSize_Click" Width="40" Height="40" FontSize="16"/>
+            <Button Name="nextButton" Content="&gt;" Click="Next_Click" Width="40" Height="40" FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>
