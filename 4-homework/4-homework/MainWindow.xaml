@@ -55,32 +55,31 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="DisplayText" Grid.Row="0" Grid.ColumnSpan="4"
-            Text="1984123" FontSize="48" Foreground="White"
+        <TextBlock x:Name="DisplayText" Grid.Row="0" Grid.ColumnSpan="4" FontSize="48" Foreground="White"
             HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20"
             TextAlignment="Right"
         />
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Grid.Column="0" Content="C" FontSize="36" Foreground="White" Background="#333333" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" x:Name="BackspaceButton" Click="BackspaceButton_Click" Grid.Row="1" Grid.Column="1" Content="&lt;" FontSize="36" Foreground="White" Background="#333333" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="CButton_Click" Grid.Row="1" Grid.Column="0" Content="C" FontSize="36" Foreground="White" Background="#333333" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="BackspaceButton_Click" Grid.Row="1" Grid.Column="1" Content="&lt;" FontSize="36" Foreground="White" Background="#333333" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Grid.Column="2" Content="%" FontSize="36" Foreground="White" Background="#333333" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="1" Grid.Column="3" Content="÷" FontSize="36" Foreground="White" Background="#FF9500" BorderBrush="{x:Null}" Margin="5"/>
 
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="2" Grid.Column="0" Content="7" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="2" Grid.Column="1" Content="8" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="2" Grid.Column="2" Content="9" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="2" Grid.Column="0" Content="7" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="2" Grid.Column="1" Content="8" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="2" Grid.Column="2" Content="9" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="2" Grid.Column="3" Content="×" FontSize="36" Foreground="White" Background="#FF9500" BorderBrush="{x:Null}" Margin="5"/>
 
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="3" Grid.Column="0" Content="4" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="3" Grid.Column="1" Content="5" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="3" Grid.Column="2" Content="6" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="3" Grid.Column="0" Content="4" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="3" Grid.Column="1" Content="5" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="3" Grid.Column="2" Content="6" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="3" Grid.Column="3" Content="−" FontSize="36" Foreground="White" Background="#FF9500" BorderBrush="{x:Null}" Margin="5"/>
 
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="4" Grid.Column="0" Content="1" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="4" Grid.Column="1" Content="2" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
-        <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="4" Grid.Column="2" Content="3" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="4" Grid.Column="0" Content="1" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="4" Grid.Column="1" Content="2" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
+        <Button Style="{StaticResource RoundButtonStyle}" Click="NumberButton_Click" Grid.Row="4" Grid.Column="2" Content="3" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="4" Grid.Column="3" Content="+" FontSize="36" Foreground="White" Background="#FF9500" BorderBrush="{x:Null}" Margin="5"/>
 
-        <Button Style="{StaticResource ZeroButtonStyle}" Grid.Row="5" Grid.Column="0" Content="0" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5" Grid.ColumnSpan="2"/>
+        <Button Style="{StaticResource ZeroButtonStyle}" Click="NumberButton_Click" Grid.Row="5" Grid.Column="0" Content="0" FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5" Grid.ColumnSpan="2"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="5" Grid.Column="2" Content="." FontSize="36" Foreground="White" Background="#4D4D4D" BorderBrush="{x:Null}" Margin="5"/>
         <Button Style="{StaticResource RoundButtonStyle}" Grid.Row="5" Grid.Column="3" Content="=" FontSize="36" Foreground="White" Background="#FF9500" BorderBrush="{x:Null}" Margin="5"/>
     </Grid>

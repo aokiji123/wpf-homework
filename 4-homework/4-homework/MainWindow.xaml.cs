@@ -1,7 +1,5 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 
 namespace _4_homework
 {
@@ -21,6 +19,20 @@ namespace _4_homework
             {
                 DisplayText.Text = DisplayText.Text.Remove(DisplayText.Text.Length - 1);
             }
+        }
+
+        private void CButton_Click(object sender, RoutedEventArgs e )
+        {
+            if (DisplayText.Text.Length > 0)
+            {
+                DisplayText.Text = "";
+            }
+        }
+
+        private void NumberButton_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+            DisplayText.Text += button.Content.ToString();
         }
     }
 }
