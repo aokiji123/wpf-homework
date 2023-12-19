@@ -18,3 +18,4 @@ C:\Users\admin\Desktop\projects\wpf-homework\4-homework\4-homework\obj\Debug\net
 C:\Users\admin\Desktop\projects\wpf-homework\4-homework\4-homework\obj\Debug\net7.0-windows\4-homework.pdb
 C:\Users\admin\Desktop\projects\wpf-homework\4-homework\4-homework\obj\Debug\net7.0-windows\4-homework.genruntimeconfig.cache
 C:\Users\admin\Desktop\projects\wpf-homework\4-homework\4-homework\obj\Debug\net7.0-windows\ref\4-homework.dll
+C:\Users\admin\Desktop\projects\wpf-homework\4-homework\4-homework\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs

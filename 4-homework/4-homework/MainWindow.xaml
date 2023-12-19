@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:_4_homework"
         mc:Ignorable="d"
         Title="MainWindow" Height="650" Width="400" Background="Black">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
     <Window.Resources>
         <Style x:Key="RoundButtonStyle" TargetType="Button">
             <Setter Property="Template">
@@ -55,7 +58,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="DisplayText" Grid.Row="0" Grid.ColumnSpan="4" FontSize="48" Foreground="White"
+        <TextBlock x:Name="DisplayText" Text="{Binding DisplayText, Mode=OneWay}" Grid.Row="0" Grid.ColumnSpan="4" FontSize="48" Foreground="White"
             HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20"
             TextAlignment="Right"
         />
