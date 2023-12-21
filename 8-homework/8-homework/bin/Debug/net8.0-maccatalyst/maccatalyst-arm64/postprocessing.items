@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="8-homework.app/Contents/MacOS/8-homework">
+      <BCSymbolMapName>8-homework.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>8-homework.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/mac/Desktop/projects/wpf-homework/8-homework/8-homework/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>8-homework.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/mac/Desktop/projects/wpf-homework/8-homework/8-homework</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

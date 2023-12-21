@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/mac/Desktop/projects/wpf-homework/8-homework/8-homework/bin/Debug/net8.0-ios/iossimulator-arm64/8-homework.app/libSystem.Security.Cryptography.Native.Apple.dylib
